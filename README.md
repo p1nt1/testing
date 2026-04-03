@@ -27,12 +27,11 @@ This is an **end-to-end (E2E) test automation suite** that:
 - **[ESLint](https://eslint.org/)** v10+ - Code linting and quality
 - **TypeScript ESLint** - TypeScript-specific rules
 - **Playwright ESLint Plugin** - Playwright best practices
-- 
 ---
 
 ## 📊 Test Coverage
 
-### Comprehensive Test Suite: **180+ Tests**
+### Test Suite: **180+ Tests**
 
 | Test Suite | Tests | Coverage |
 |------------|-------|----------|
@@ -45,4 +44,18 @@ This is an **end-to-end (E2E) test automation suite** that:
 | **User Types** | 19 | All 6 user types, behaviors, bugs |
 | **Visual Regression** | 15 | Screenshot comparison, responsive design |
 
-**Total:** 86+ unique tests × 3 browsers = **180+ test executions per run**
+
+### Desktop Browsers
+
+| Browser | Engine | Version | Functional Tests | Visual Tests |
+|---------|--------|---------|-----------------|--------------|
+| **Chrome** | Chromium | Latest | ✅ All tests | ✅ Full visual suite |
+| **Firefox** | Gecko | Latest | ✅ All tests | ✅ Full visual suite |
+| **Safari** | WebKit | Latest | ✅ All tests | ✅ Full visual suite |
+
+### Mobile Devices
+
+| Device | OS | Resolution | Functional Tests | Visual Tests |
+|--------|----|-----------|--------------------|--------------|
+| **iPhone 12** | iOS Safari | 390×844 | ✅ All tests | ❌ N/A |
+| **Pixel 5** | Android Chrome | 393×851 | ✅ All tests | ❌ N/A |
