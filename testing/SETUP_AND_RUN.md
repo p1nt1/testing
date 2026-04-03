@@ -104,7 +104,10 @@ npm run test filename.spec.ts
 
 The test suite has discovered several bugs (documented with `test.fail()`):
 - **CART-001**: Cart persists across users
+- **CHECKOUT-001**: Empty cart checkout
+- **CHECKOUT-002**: No quantity controls
 - **ERROR-USER-001**: error_user can't add Fleece Jacket
 - **ERROR-USER-002**: error_user can't add Bolt T-Shirt
+
 
 
