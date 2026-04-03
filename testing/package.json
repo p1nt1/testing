@@ -1,0 +1,31 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:visual": "npx playwright test visual.spec.ts",
+    "test:visual:update": "npx playwright test visual.spec.ts --update-snapshots",
+    "report": "npx playwright show-report",
+    "lint": "eslint tests/**/*.ts playwright.config.ts",
+    "lint:fix": "eslint tests/**/*.ts playwright.config.ts --fix",
+    "lint:report": "eslint tests/**/*.ts playwright.config.ts -o eslint-report.html -f html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "eslint": "^10.1.0",
+    "eslint-plugin-playwright": "^2.10.1",
+    "typescript-eslint": "^8.58.0"
+  }
+}
