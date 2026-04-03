@@ -57,5 +57,5 @@ This is an **end-to-end (E2E) test automation suite** that:
 
 | Device | OS | Resolution | Functional Tests | Visual Tests |
 |--------|----|-----------|--------------------|--------------|
-| **iPhone 12** | iOS Safari | 390×844 | ✅ All tests | ❌ N/A |
-| **Pixel 5** | Android Chrome | 393×851 | ✅ All tests | ❌ N/A |
+| **iPhone 12** | iOS Safari | 390×844 | ✅ All tests | ✅ |
+| **Pixel 5** | Android Chrome | 393×851 | ✅ All tests | ✅ |
